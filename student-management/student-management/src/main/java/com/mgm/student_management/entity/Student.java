@@ -22,12 +22,10 @@ public class Student implements Serializable {
 	private String course;
 
 	public Student() {
-		// TODO Auto-generated constructor stub
+
 	}
 
-	public Student(Long id, String name, int age, String course) {
-		super();
-		this.id = id;
+	public Student(String name, int age, String course) {		
 		this.name = name;
 		this.age = age;
 		this.course = course;
